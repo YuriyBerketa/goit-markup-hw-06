@@ -288,6 +288,7 @@ a {
     line-height: 1.15;
     text-align: center;
    color: var(--first-color);
+   margin-bottom: 12px;
 }
 .modal-form {
 
