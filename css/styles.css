@@ -368,7 +368,6 @@ margin-left: 12px;
 }
 
 .checkbox-text {
-  display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 400;
