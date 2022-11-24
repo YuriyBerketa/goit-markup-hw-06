@@ -231,6 +231,7 @@ a {
 .button-studio:focus {
   background-color: #188CE8;
 }
+
 .backdrop {
   position: fixed;
   height: 100%;
