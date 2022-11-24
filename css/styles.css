@@ -383,7 +383,7 @@ margin-left: 12px;
   text-decoration:underline;
 }
 
-.icon-checkbox {
+/* .icon-checkbox {
   position: absolute;
   top: 50%;
   left: 0;
@@ -396,8 +396,17 @@ margin-left: 12px;
   background-color: red;
   background-size: contain;
   background-origin: border-box;
+} */
+.checkbox-text:before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--first-color);
+  border-radius: 2px;
+  margin-right: 7px;
+  
 }
-
 
 
 
