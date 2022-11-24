@@ -225,8 +225,12 @@ a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.button-studio:hover, 
+.button-studio:focus {
+  background-color: #188CE8;
+}
 .backdrop {
   position: fixed;
   height: 100%;
@@ -426,7 +430,7 @@ margin-bottom: 30px;
   border-radius: 4px;
   background-color: var(--third-color);
   color: var(--main-color);
-  padding: 10px 28px;
+  padding: 10px 52px;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -438,7 +442,12 @@ margin-bottom: 30px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   display: flex;
   align-items: center;
-
+  margin: auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-form:hover, 
+.button-form:focus {
+  background-color: #188CE8;
 }
 
 .benefits-icon {
@@ -1013,7 +1022,13 @@ margin-bottom: 30px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 display: flex;
 align-items: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
+}
+
+.button-subscribe:hover, 
+.button-subscribe:focus {
+  background-color: #188CE8;
 }
 .icon-subscribe {
   margin-left: 10px;
